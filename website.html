@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>CI and Ru</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap" rel="stylesheet">
+
+
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Lato", sans-serif
+    }
+
+    .w3-bar,
+    h1,
+    button {
+        font-family: "Montserrat", sans-serif
+    }
+
+    .fa-anchor,
+    .fa-coffee {
+        font-size: 200px
+    }
+
+    h5 {
+        font-family: 'Gochi Hand';
+
+    }
+
+    .image {
+        height: auto;
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500%;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .row {
+  -ms-display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 55%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red"
+                href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i
+                    class="fa fa-bars"></i></a>
+
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+            <a href="#ciara" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Ciara</a>
+            <a href="#russel" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Russel</a>
+          
+
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="#ciara" class="w3-bar-item w3-button w3-padding-large">Ciara</a>
+            <a href="#russel" class="w3-bar-item w3-button w3-padding-large">Russel</a>
+
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-container w3-black w3-center" style="padding:128px 16px">
+        <h1 class="w3-margin w3-jumbo">Ciara & Russells Fairytale</h1>
+        <a href="https://truelovedates.com/8-ways-to-pray-for-your-love-life/">
+        <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Learn more</button></a>
+    </header>
+
+    <!-- First Grid -->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-twothird w3-col s12 m12 l6">
+                <h1>an IconIc Love story..</h1>
+                <h5 class="w3-padding-3">
+                    Ciara "the classy princess" Wilson was minding her own business when Russell "StepDad Season" Wilson tossed a football into her DM's. She knew not to leave this man on read. On their quest of living their best life, CiCi and Russ Russ avoid dirty
+                    sprite cups, brazillian lace fronts, AP watches, and other unflattering drama. In the land of unbotheredness,
+                    Ciara and Russy spend their time smelling like cocoa butter and sending our prayers to the call
+                    center in Heaven. Outside of being a postive influence, they are raising two adorable children and a third is on the way.</h5>
+
+
+            </div>
+
+            <div class="w3-third w3-center w3-col s12 m12 l6">
+                <img class="w3-image"
+                    src="https://cdn1.thr.com/sites/default/files/imagecache/landscape_928x523/2019/04/russell_wilson_and_ciara.jpg">
+            </div>
+        </div>
+    </div>
+
+    <!-- Second Grid -->
+    <a id="ciara"></a>
+    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-third w3-center  w3-col s12 m12 l12">
+                <div class="row">
+                    <div class="column w3-col l12">
+                        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-538511780a-1566837879.jpg" style="width:100%">
+                        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-538511780a-1566837879.jpg" style="width:100%">
+                       
+                   
+                    </div>
+                    <div class="column">
+                        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-538511780a-1566837879.jpg" style="width:100%">
+                        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-538511780a-1566837879.jpg" style="width:100%">
+                      
+                    </div>
+
+                </div>
+
+        
+            </div>
+        </div>
+        </div>
+
+        <!-- Second Grid -->
+        <a id="russel"></a>
+        <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+            <div class="w3-content">
+                <div class="w3-third w3-center w3-col s12 m12 l12">
+                        <div class="row">
+                                <div class="column w3-col l12">
+                                    <img src="    https://www.bet.com/news/sports/2019/04/16/russell-wilson-signs--140-million-extension-with-seahawks-making/_jcr_content/image.large2x1image.dimg/__1555438547046__1555435993524/041619-Sports-Russell-Wilson-Highest-Paid-NFL-Player.jpg" style="width:100%">
+                                    <img src="    https://www.bet.com/news/sports/2019/04/16/russell-wilson-signs--140-million-extension-with-seahawks-making/_jcr_content/image.large2x1image.dimg/__1555438547046__1555435993524/041619-Sports-Russell-Wilson-Highest-Paid-NFL-Player.jpg" style="width:100%">
+                                   
+                               
+                                </div>
+                                <div class="column">
+                                    <img src="    https://www.bet.com/news/sports/2019/04/16/russell-wilson-signs--140-million-extension-with-seahawks-making/_jcr_content/image.large2x1image.dimg/__1555438547046__1555435993524/041619-Sports-Russell-Wilson-Highest-Paid-NFL-Player.jpg" style="width:100%">
+                                    <img src="    https://www.bet.com/news/sports/2019/04/16/russell-wilson-signs--140-million-extension-with-seahawks-making/_jcr_content/image.large2x1image.dimg/__1555438547046__1555435993524/041619-Sports-Russell-Wilson-Highest-Paid-NFL-Player.jpg" style="width:100%">
+                                  
+                                </div>
+            
+                            </div>
+            </div>
+        </div>
+</div>
+        <!-- Second Grid -->
+        <a id="kids"></a>
+        <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+            <div class="w3-content">
+                <div class="w3-third w3-center">
+                        <div class="w3-third w3-center w3-col s12 m12 l12">
+                                <div class="row">
+                                        <div class="column w3-col l12">
+                                            <img src="    https://www.bet.com/news/sports/2019/04/16/russell-wilson-signs--140-million-extension-with-seahawks-making/_jcr_content/image.large2x1image.dimg/__1555438547046__1555435993524/041619-Sports-Russell-Wilson-Highest-Paid-NFL-Player.jpg" style="width:100%">
+                                            <img src="    https://www.bet.com/news/sports/2019/04/16/russell-wilson-signs--140-million-extension-with-seahawks-making/_jcr_content/image.large2x1image.dimg/__1555438547046__1555435993524/041619-Sports-Russell-Wilson-Highest-Paid-NFL-Player.jpg" style="width:100%">
+                                           
+                                       
+                                        </div>
+                                        <div class="column">
+                                            <img src="    https://www.bet.com/news/sports/2019/04/16/russell-wilson-signs--140-million-extension-with-seahawks-making/_jcr_content/image.large2x1image.dimg/__1555438547046__1555435993524/041619-Sports-Russell-Wilson-Highest-Paid-NFL-Player.jpg" style="width:100%">
+                                            <img src="    https://www.bet.com/news/sports/2019/04/16/russell-wilson-signs--140-million-extension-with-seahawks-making/_jcr_content/image.large2x1image.dimg/__1555438547046__1555435993524/041619-Sports-Russell-Wilson-Highest-Paid-NFL-Player.jpg" style="width:100%">
+                                          
+                                        </div>
+                    
+                                    </div>
+                    </div>
+</div>
+        <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+            <h1 class="w3-margin w3-xlarge">Quote of the day: Life is Good </h1>
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-container w3-padding-64 w3-center w3-opacity">
+            
+            <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a> & stayflyndev</p>
+        </footer>
+
+        <script>
+            // Used to toggle the menu on small screens when clicking on the menu button
+            function myFunction() {
+                var x = document.getElementById("navDemo");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else {
+                    x.className = x.className.replace(" w3-show", "");
+                }
+            }
+        </script>
+
+</body>
+
+</html>
